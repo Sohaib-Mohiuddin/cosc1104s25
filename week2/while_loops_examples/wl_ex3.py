@@ -10,12 +10,12 @@ count = 0
 number = 1
 
 # Loop until the user enters 0
-while number != 0:
+while number != 5:
     # Ask the user for a number
     number = int(input("Enter a number (0 to stop): "))
     
     # If the number is not 0, add it to the sum and increment the count
-    if number != 0:
+    if number != 5:
         sum += number
         count += 1
         

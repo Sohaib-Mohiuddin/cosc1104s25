@@ -14,5 +14,8 @@ while month_counter <= months_to_invest:
     # increment the month counter
     month_counter += 1
     
+    # print future value for each iteration
+    print(f'Current future value: {future_value:.2f}')
+    
 # print the future value
-print(f'Future value: ${future_value:.2f}')
+# print(f'Future value: ${future_value:.2f}')

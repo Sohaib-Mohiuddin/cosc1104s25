@@ -12,5 +12,11 @@ while units_to_ship > 0:
     # reduce the number of units to ship
     units_to_ship -= truck_capacity
     
+    # print the remaining units to ship
+    print(f'Units Left To Ship: { units_to_ship }')
+    
+    # current number of truck loads
+    print(f'Current Number Of Truck Loads: { truck_loads }')
+    
 # print the number of truck loads
-print("Number of truck loads:", truck_loads)
+# print("Number of truck loads:", truck_loads)
