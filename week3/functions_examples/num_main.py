@@ -23,6 +23,6 @@ if __name__ == "__main__":
     print(f"Addition of multiple integers: {result}")
     
     # Subtract a list of integers
-    num_list = [10, 5, 2]
+    num_list = [5, 2, 20, 10, 3]
     result = num_util.sub_list(num_list)
     print(f"Subtraction of list: {result}")

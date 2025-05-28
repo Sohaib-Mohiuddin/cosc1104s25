@@ -24,6 +24,7 @@ if __name__ == "__main__":
     print(f"Concatenated list of strings: {result}")
     
     # Concatenate a list of strings with a separator
+    str_list2 = ["Hello", "how", "are", "you"]
     sep = "-"
-    result = str_util.concat_list_with_sep(str_list, sep)
+    result = str_util.concat_list_with_sep(str_list2, sep)
     print(f"Concatenated list with separator: {result}")
