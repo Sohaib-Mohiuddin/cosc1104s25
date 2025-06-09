@@ -10,7 +10,7 @@ def calculate_average(num_list):
     # average will be initialized to 0 to avoid future issues and syntax issues
     
     
-    # average = 0 # Uncomment this line to mitigate the issue
+    average = 0 # Uncomment this line to mitigate the issue
     total = 0
     count = len(num_list)
     

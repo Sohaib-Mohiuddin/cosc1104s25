@@ -6,10 +6,10 @@ Understand boolean logic in conditions.
 def greet_user(hour):
     if (hour < 12):
         print("Good morning")
-    elif (hour >= 12 and < 18):
+    elif (hour >= 12 and hour < 18):
         print("Good afternoon")
-    else
+    else:
         print("Good evening")
 
 if __name__ == "__main__":
-    greet_user(15)
+    greet_user(18)
