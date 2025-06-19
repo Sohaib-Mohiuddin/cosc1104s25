@@ -1,6 +1,6 @@
 """
 This module is a class called person which will be utilized as an example of OOP
-This class will have the following attributes:
+This class will have the following attributes/properties:
 - name: str
 - age: int
 - height: float
@@ -34,6 +34,12 @@ class Person:
         self.weight = weight
         self.studying = studying
 
+    def is_old(self):
+        if (self.age <= 55):
+            return f'{self.name} is Not Old'
+        else:
+            return f'{self.name} is Old'
+    
     def is_studying(self) -> bool:
         """
         Checks if the person is currently studying.
@@ -123,3 +129,9 @@ class Person:
             str: String representation of the person.
         """
         return f"Person(name={self.name}, age={self.age}, height={self.height}, weight={self.weight}, studying={self.studying})"
+    
+    def to_json(self):
+        return {
+            'name': self.name,
+            'age': self.age
+        }
