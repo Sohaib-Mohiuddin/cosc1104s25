@@ -1,0 +1,4 @@
+libs_ex1.py
+libs_ex2.py
+directory_contents.txt
+week6_demo.py
